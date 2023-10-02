@@ -8,12 +8,24 @@ let soldiers = ["EYES", '&nbsp;', "FORMED", "UNDER", "VILLAINOUS", "TOUCHES", '&
 let derailment = ["INTO", "YESTERDAY", "BROKEN", "GROUND", "AT", "THE WINDOW", "PANE"]
 let baby = ["YOU", "HONEY", "THINGS", '&nbsp;', "LEAST", "YOU'RE", "QUICK"]
 
-let index = 0;
+let index1 = 0;
+let index2 = 0;
+let index3 = 0;
+let index4 = 0;
+let index5 = 0;
+let index6 = 0;
+let index7 = 0;
 
 function setup() {
-  noCanvas()
+  noCanvas();
 
   //column 1
+  let d1 = createDiv();
+  d1.position(100,50);
+
+  let d2 = createDiv();
+  d2.position(150,50);
+
   let button1 = createButton("SUBMARINE");
   button1.mouseClicked(mite);
 
@@ -40,50 +52,58 @@ function setup() {
   //column7
   let button7 = createButton("BABY");
   button7.mouseClicked(fly);
-  }
+
+}
 
 
 
-function mite(){
+function mite() {
+  console.log(index1);
   //add one to index
-  createP( submarine[index] );
-  index++;
+  createP(submarine[index1]);
+  index1++;
   console.log("Column 1 functional!!")
 }
 
-function cricket(){
-  createP (trespassers[index]);
-  index++;
-  console.log("Column 2 functional!")
+function cricket() {
+  console.log(index2);
+  createP(trespassers[index2]);
+  index2++;
+  console.log("Column 2 functional!");
 }
 
-function moth(){
-  createP (bystander[index]);
-  index++;
+function moth() {
+  console.log(index3);
+  createP(bystander[index3]);
+  index3++;
   console.log("Column 3 functional!")
 }
 
-function katydid(){
-  createP (fumes[index]);
-  index++;
+function katydid() {
+  console.log(index4);
+  createP(fumes[index4]);
+  index4++;
   console.log("Column 4 functional!")
 }
 
-function bumblebee(){
-  createP (soldiers[index]);
-  index++;
+function bumblebee() {
+  console.log(index5);
+  createP(soldiers[index5]);
+  index5++;
   console.log("Column 5 functional!")
 }
 
-function beetle(){
-  createP (derailment[index]);
-  index++;
+function beetle() {
+  console.log(index6);
+  createP(derailment[index6]);
+  index6++;
   console.log("Column 6 functional!")
 }
 
-function fly(){
-  createP (baby[index]);
-  index++;
+function fly() {
+  console.log(index7);
+  createP(baby[index7]);
+  index7++;
   console.log("Column 7 functional!")
 }
 
