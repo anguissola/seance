@@ -16,6 +16,7 @@ let index5 = 0;
 let index6 = 0;
 let index7 = 0;
 
+
 function setup() {
   noCanvas();
 
@@ -26,31 +27,40 @@ function setup() {
   let d2 = createDiv();
   d2.position(150,50);
 
-  let button1 = createButton("SUBMARINE");
+  let button1 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button1.size(80, 26.6);
+  // button1.position(50, 100);
   button1.mouseClicked(mite);
+ 
 
   //column2
-  let button2 = createButton("TRESPASSERS");
+  let button2 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button2.size(80, 26.6);
   button2.mouseClicked(cricket);
 
   //column3
-  let button3 = createButton("BYSTANDER");
+  let button3 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button3.size(80, 26.6);
   button3.mouseClicked(moth);
 
   //column4
-  let button4 = createButton("FUMES");
+  let button4 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button4.size(80, 26.6);
   button4.mouseClicked(katydid);
 
   //column5
-  let button5 = createButton("SOLDIERS");
+  let button5 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button5.size(80, 26.6);
   button5.mouseClicked(bumblebee);
 
   //column6
-  let button6 = createButton("DERAILMENT");
+  let button6 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button6.size(80, 26.6);
   button6.mouseClicked(beetle);
 
   //column7
-  let button7 = createButton("BABY");
+  let button7 = createImg('https://64.media.tumblr.com/eff016a22aa1a22ff9cc50a9f7b3725e/ae15ce1256d1e444-20/s400x600/ad68ef9b11e270ae66f2166bb5e14a5fa0083587.pnj');
+  button7.size(80, 26.6);
   button7.mouseClicked(fly);
 
 }
