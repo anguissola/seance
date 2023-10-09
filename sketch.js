@@ -86,50 +86,56 @@ function setup() {
 function mite() {
   console.log(index1);
   //add one to index
-  createP(submarine[index1]);
+  let miteBlock = createP(submarine[index1]);
+  miteBlock.position(277,225);
   index1++;
   console.log("Column 1 functional!!")
-  p.position(30,70);
 }
 
 function cricket() {
   console.log(index2);
-  createP(trespassers[index2]);
+  let cricketBlock = createP(trespassers[index2]);
+  cricketBlock.position(347,225);
   index2++;
   console.log("Column 2 functional!");
 }
 
 function moth() {
   console.log(index3);
-  createP(bystander[index3]);
+  let mothBlock = createP(bystander[index3]);
+  mothBlock.position(417,225);
   index3++;
   console.log("Column 3 functional!")
 }
 
 function katydid() {
   console.log(index4);
-  createP(fumes[index4]);
+  let katydidBlock=createP(fumes[index4]);
+  katydidBlock.position(487,225);
   index4++;
   console.log("Column 4 functional!")
 }
 
 function bumblebee() {
   console.log(index5);
-  createP(soldiers[index5]);
+  let bumblebeeBlock = createP(soldiers[index5]);
+  bumblebeeBlock.position(557,225);
   index5++;
   console.log("Column 5 functional!")
 }
 
 function beetle() {
   console.log(index6);
-  createP(derailment[index6]);
+  let beetleBlock = createP(derailment[index6]);
+  beetleBlock.position(627,225)
   index6++;
   console.log("Column 6 functional!")
 }
 
 function fly() {
   console.log(index7);
-  createP(baby[index7]);
+  let flyBlock = createP(baby[index7]);
+  flyBlock.position(697,225);
   index7++;
   console.log("Column 7 functional!")
 }
