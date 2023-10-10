@@ -18,3 +18,13 @@ html, body {
   left: 180px;
 }
 
+#preface {
+  position: fixed;
+  top: 80px;
+  left: 370px;
+  width: 400px;
+  font-weight: 100;
+  font-size: 14px;
+  background-color: antiquewhite;
+}
+
