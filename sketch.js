@@ -38,7 +38,7 @@ function setup() {
 
   //column 1
  
-  backdrop = createImg('offmode.png');
+  backdrop = createImg('offmode3.png');
   backdrop.size(1024,588);
 
   let button1 = createImg('buttongraphic.png');
@@ -88,18 +88,29 @@ function setup() {
   laneternButton.size(90,90);
   laneternButton.mouseClicked(openUp);
 
+  let ladyButton = createImg('lady no light.png');
+  ladyButton.size(170,290);
+  ladyButton.position(90,290);
+  ladyButton.mouseClicked(trickOfLight);
+
 }
 
 function openUp() {
-  backdrop.attribute("src", 'onmode.png');
-  // lightsOn.position(486,70);
-  // lightsOn.size(60,60);
-  // let newTitle = createImg('alt title.png');
-  // newTitle.position(410,475);
-  // newTitle.size(230,230/3);
-  // let light = createImg('onmode.png');
-  // backdrop.size(1024,588);
-  // backdrop.position(0,0);
+  backdrop.attribute("src", 'onmode3.png');
+  let light = createImg('glowing light.png');
+  light.position(486,70);
+  light.size(60,60);
+  
+  let light2 = createImg('glowing light.png');
+  light2.position(210,320);
+  light2.size(60,60);
+
+}
+
+function trickOfLight() {
+let newTitle = createImg('alt title.png');
+  newTitle.position(420,475);
+  newTitle.size(215,215/3);
 }
 
 function mite() {
